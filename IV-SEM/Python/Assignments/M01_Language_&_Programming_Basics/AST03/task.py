@@ -2,10 +2,10 @@ def Student_Grade_System(name:str,n1: int,n2: int,n3: int) -> str:
    avg = round((n1 + n2 + n3) / 3,2)
 
    if avg >= 35:
-       status = "Pass"
+    return f"Average grade: {avg}, Status: Pass"
    else:
-       status = "fail"
-   return f"Average grade: {avg}, Status: {status}"    
+
+    return f"Average grade: {avg}, Status: fail"    
     
 if __name__ == '__main__':
     name = input()
