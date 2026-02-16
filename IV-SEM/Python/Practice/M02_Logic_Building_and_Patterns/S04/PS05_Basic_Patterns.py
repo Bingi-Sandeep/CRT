@@ -75,22 +75,35 @@ for i in range(1, n + 1):
     print()
            
        
-#9. Pyramid Star Pattern
-Input: 5
+
+#9. Stair Case Pattern or Right-Angled Triangle Star Pattern with spaces
+Input: 4
 Output:
-    *
-   * *
-  * * *
- * * * *
-Code:
+   *
+  **
+ ***
+****
+'''
 n = int(input("Enter the number of rows: "))
-for i in range(1, n):
+for i in range(1, n + 1):
     for _ in range(n - i):
-        print(end = " ")
+        print(" ", end = "")
     for j in range(i):
-        print("*", end = " ")
+        print("*", end = "")
     print()
 
-        
-'''
+
+
+ 
+
+
+   
+  
+
+
+
+
+
+
+
 
