@@ -164,7 +164,6 @@ Delete dict items:
 3. popitem() fn. popitem() --> Removes the last inserted key-value pair and returns it as a tuple.
 4. clear() fn. clear() --> Removes all items from the dictionary, leaving it empty.
 242
-'''
 #Leetcode Problem: 1 Two Sum Using Dictionary
 def twoSum(nums, target):
     d = {}
@@ -179,4 +178,19 @@ def twoSum(nums, target):
 nums = list(map(int, input("Enter List Items: ").split()))
 target = int(input("Enter Target: "))
 print(twoSum(nums, target))
-        
+
+
+
+'''
+#Given a two binary strings a and b, return the sum of the two binary strings as a binary string.
+def addBinary(a, b):
+    #Convert binary strings to integers
+    num1 = int(a, 2)
+    num2 = int(b, 2)
+    
+    #Calculate the sum of the two numbers
+    total = num1 + num2
+    
+    #Convert the sum back to a binary string and remove the '0b' prefix
+    return bin(total)[2:]
+
