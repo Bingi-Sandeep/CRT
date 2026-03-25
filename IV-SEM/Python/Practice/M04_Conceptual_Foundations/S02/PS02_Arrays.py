@@ -124,6 +124,3 @@ def pivotIndex(nums):
 nums = [1, 7, 3, 6, 5, 6]
 print("Pivot Index:", pivotIndex(nums))
 
-
-
-
