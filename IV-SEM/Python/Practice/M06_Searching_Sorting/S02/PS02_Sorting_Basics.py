@@ -46,3 +46,6 @@ def insertion_sort(arr):
 print("Enter arr: ")
 arr = list(map(int, input().split()))
 print(insertion_sort(arr))
+
+
+

@@ -49,3 +49,4 @@ def is_palindrome(s):
 print(Reverse_str("python")) #"nohtyp"
 print(is_palindrome("abc")) #False
 print(is_palindrome("madam")) #True
+
