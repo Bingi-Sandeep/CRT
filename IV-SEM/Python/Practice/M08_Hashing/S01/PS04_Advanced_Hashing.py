@@ -1,3 +1,4 @@
+'''
 #Group anagrams
 def group_anagrams(strs):
     anagram_dict = {}
@@ -14,3 +15,5 @@ def group_anagrams(strs):
 
 strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
 print(group_anagrams(strs))
+
+'''
